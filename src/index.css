@@ -1,9 +1,21 @@
 body{
    /* background: linear-gradient(45deg,#ff3d00, #ffab00,#ffeb3b,#cddc39,#00c853,#03a9f4,#3f51b5,#9c27b0);  */
-   background: linear-gradient(45deg,#433e3c, #5e5a53,#d49f9f,#bf4444,#ff4039,#bf4444,#d49f9f, #5e5a53,#433e3c); 
+   /* background: linear-gradient(45deg,#433e3c, #5e5a53,#d49f9f,#bf4444,#ff4039,#bf4444,#d49f9f, #5e5a53,#433e3c);  */
    font-family: 'Dancing Script', cursive;
+   background-image: linear-gradient(45deg, #bf4444 25%, transparent 25%, transparent 75%, #bf4444 75%, #bf4444 100%);
+   background-size: 20px 20px;
+   background-color: #e05853;
 }
-
+.outerbox {
+  width:1430px;
+  height:660px;
+  border:2.5px solid #000;
+   padding:20px; 
+   margin:20px; 
+   display:flex;
+   justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);}
 div{
   width:100%;
   height:100vh;
@@ -14,18 +26,22 @@ div{
 }
 button{
   padding: 12px 20px;
-  background:black;
-  color:red;
+  background-image: linear-gradient(45deg, #2d2d26 25%, transparent 25%, transparent 75%, #2d2d26 75%, #2d2d26 100%);
+  background-size: 20px 20px;
+  background-color: #31312d;
   border: 2px solid #ecf0f1;
+  color: red;
   outline:none;
   border-radius: 5px;
   text-transform: uppercase;
   cursor:pointer;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Dancing Script', cursive;
 }
 button:hover{
-  background-color: red;
+  background-image: linear-gradient(45deg, #bf4444 25%, transparent 25%, transparent 75%, #bf4444 75%, #bf4444 100%);
+  background-size: 20px 20px;
+  background-color: #e05853;
   color: black;
   cursor: pointer;
 }

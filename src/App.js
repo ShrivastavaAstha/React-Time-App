@@ -14,8 +14,10 @@ const App = () => {
   };
   return (
     <>
-      <h1>{ctime}</h1>
-      <button onClick={UpdateTime}>get time</button>
+      <div className="outerbox">
+        <h1>{ctime}</h1>
+        <button onClick={UpdateTime}>get time</button>
+      </div>
     </>
   );
 };
