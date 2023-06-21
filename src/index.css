@@ -9,7 +9,7 @@ body{
 .outerbox {
   width:1430px;
   height:660px;
-  border:2.5px solid #000;
+  border:2.5px dashed #000;
    padding:20px; 
    margin:20px; 
    display:flex;
